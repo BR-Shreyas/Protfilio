@@ -1,15 +1,250 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>javascript</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
 </head>
 <body>
-    <h1 id="header">learning about the dom in js</h1>
-    <h2 class="newr"> We are the new coders for the technology</h2>
-    <button>are u happy!</button>
-    <script src="index.js"></script>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Skills</a>
+            <a href="#Portfolio">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-container">
+            <h3>It's me</h3>
+            <h1>Shreyas BR</h1>
+            <h3>and I'm a <span class="text"></span></h3>
+            <p>I'm a web developer with overall 8 months of internship experience.<br> Enthusiastic in working on web pages and <span>Java programming</span>.</p>
+            <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <a href="#" class="btn-box">More info about me....</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/cropped.png" alt="About Me Image">
+        </div>
+        <div class="about-container">
+            <h2>About <span>Me</span></h2>
+            <p>
+                Hi, I'm Shreyas,<br>
+                <h4>a Full Stack Developer</h4>
+                with a passion for creating dynamic and responsive web applications. I have completed my Bachelor's in Engineering in Computer Science with a CGPA of 8.15. With a solid foundation in Java, PHP, HTML, CSS, JavaScript, and MySQL, I bring both front-end and back-end expertise to the table.
+            </p>
+            <p>
+                During my 6-month internship, I gained valuable experience in developing and maintaining web applications, enhancing my skills and knowledge in web development. I'm enthusiastic about leveraging my technical skills to build innovative and efficient solutions.
+            </p>
+            <h3>Technical Skills:</h3>
+            <ul class="list">
+                <li>Java</li>
+                <li>PHP</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>MySQL</li>
+            </ul>
+            <a href="#" class="btn-box">More about</a>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="project-container">
+            <h1 class="sub-title">My <span>Projects</span> Section</h1>
+            <div class="project-list">
+                <div class="project-item">
+                    <i class='bx bx-data' style="color: #00eeff;"></i>
+                    <h2>Fifa-18 Database Management System</h2>
+                    <p>
+                        "Developed a robust Database Management System utilizing HTML, CSS, JavaScript, and MySQL.<br>
+                        The project includes seamless implementation of CRUD operations powered by PHP.<br>
+                        Designed to efficiently manage and manipulate data with user-friendly interfaces."
+                    </p>
+                    <ul>
+                        <li><h3>Technologies Used</h3></li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>MySQL</li>
+                        <li>PHP</li>
+                    </ul>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+                <div class="project-item">
+                    <i class='bx bxl-python' style="color: #00eeff;"></i>
+                    <h2>Obesity Prediction Using Python-ML</h2>
+                    <p>
+                        "Developed an Obesity Prediction Model using HTML, CSS, JavaScript, MySQL, Python, and machine learning.<br>
+                        Implemented SVM, Decision Tree, and Logistic Regression algorithms to predict obesity risk.<br>
+                        The project includes a user-friendly interface for data input and real-time prediction results."
+                    </p>
+                    <ul>
+                        <li><h3>Technologies Used</h3></li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>MySQL</li>
+                        <li>Python</li>
+                    </ul>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+                <div class="project-item">
+                    <i class='bx bxl-java' style="color: #00eeff;"></i>
+                    <h2>InovaBill-Billing software</h2>
+                    <a href="https://www.inova.org/patient-and-visitor-information/inova-bill-pay"><h3>Inovabill-Billing software</h3></a>
+                    <p>
+                        "Developed a comprehensive Billing Software application using HTML, CSS, JavaScript, and Java.<br>
+                        The software streamlines the billing process with an intuitive user interface for easy invoice creation, management, and tracking.<br>
+                        It features real-time updates, secure data handling, and robust reporting capabilities.<br>
+                        The project emphasizes efficiency, accuracy, and user-friendliness, making it an essential tool for businesses to manage their billing operations effectively."
+                    </p>
+                    <ul>
+                        <li><h3>Technologies Used</h3></li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>MySQL</li>
+                        <li>Java</li>
+                    </ul>
+                    <a href="#" class="read">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    
+    <section>
+        <div class="container" id="skills">
+            <h1 class="heading">Technical Skills</h1>
+            <div class="technical-bars">
+                <div class="bar">
+                    <i class='bx bxl-html5' style="color: #147bbc;"></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="technical-bars">
+                <div class="bar">
+                    <i class='bx bxl-css3' style="color: #bc6214;"></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="technical-bars">
+                <div class="bar">
+                    <i class='bx bxl-javascript' style="color: #0ddf48;"></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="technical-bars">
+                <div class="bar">
+                    <i class='bx bxl-postgresql' style="color: #d0d0d0;"></i>
+                    <div class="info">
+                        <span>MySql</span>
+                    </div>
+                    <div class="progress-line mysql">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="technical-bars">
+                <div class="bar">
+                    <i class='bx bxl-java' style="color: #d05d10;"></i>
+                    <div class="info">
+                        <span>Java</span>
+                    </div>
+                    <div class="progress-line java">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="technical-bars">
+                <div class="bar">
+                    <i class='bx bxl-java' style="color: #d05d10;"></i>
+                    <div class="info">
+                        <span>Advance Java</span>
+                    </div>
+                    <div class="progress-line advance">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="technical-bars">
+                <div class="bar">
+                    <i class='bx bxl-php' style="color: #147bbc;"></i>
+                    <div class="info">
+                        <span>PHP</span>
+                    </div>
+                    <div class="progress-line php">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+       
+        </div>
+    </section>
+
+
+    <section id="Portfolio" class="resume-section">
+        <div class="main-text">
+          <h1>Click here to view my resume</h1>
+          <a href="https://drive.google.com/file/d/1EqRX0c41l-pU_KduVrLUhOaHrbH477PU/view?usp=drivesdk"><button class="btn" onclick="toggleResume()">Show Resume</button></a>
+          <div id="resume-content" style="display: none;">
+            <h3>My Resume</h3>
+            <p>Include detailed resume content here or link to a PDF file.</p>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact<span>  me</span></h2>
+            <h3>Feel free to mail or call</h3>
+            <div class="contact-list">
+                <li><i class="bx bxs-send">shreyasshreyas015@gmail.com</i>
+                </li>
+                <li><i class="bx bx-phone">7483676039</i></li>
+            </div>
+        </div>
+
+      </section>
+
+
+
+    
+
+    <script src="script.js"></script>
 </body>
-</html>
+</html>  
