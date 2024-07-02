@@ -1,0 +1,12 @@
+*{
+    color: aqua;
+    padding: 10px 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+button{
+    background-color: red;
+    padding-left: 80px;
+    cursor: pointer;
+}
